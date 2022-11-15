@@ -8,7 +8,7 @@ class OutStream
 {
 public:
     OutStream();
-    virtual void sendString(std::string) = 0;
+    virtual void sendString(std::string);
 
 };
 
