@@ -1,7 +1,10 @@
 #ifndef FIZZSENDER_H
 #define FIZZSENDER_H
 
+#include <memory>
+
 #include "sender.h"
+#include "outstream.h"
 
 class BuzzSender: public Sender
 {
