@@ -5,6 +5,7 @@
 
 #include "sender.h"
 #include "outstream.h"
+#include "number.h"
 
 class FizzSender: public Sender
 {

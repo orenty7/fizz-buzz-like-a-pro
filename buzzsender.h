@@ -5,6 +5,8 @@
 
 #include "sender.h"
 #include "outstream.h"
+#include "number.h"
+
 
 class BuzzSender: public Sender
 {

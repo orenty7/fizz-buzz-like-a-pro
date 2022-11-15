@@ -13,7 +13,8 @@ add_executable(fizz-buzz-like-a-pro main.cpp outstream.h
     fizzsender.cpp
     fizzsender.h
     buzzsender.cpp
-    buzzsender.h)
+    buzzsender.h
+    number.h)
 
 install(TARGETS fizz-buzz-like-a-pro
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR})

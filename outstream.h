@@ -7,7 +7,7 @@
 class OutStream
 {
 public:
-    virtual void sendString(std::string);
+    virtual void sendString(std::string) = 0;
 
 };
 
