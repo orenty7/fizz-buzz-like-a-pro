@@ -1,5 +1,5 @@
-#ifndef FIZZSENDER_H
-#define FIZZSENDER_H
+#ifndef BUZZSENDER_H
+#define BUZZSENDER_H
 
 #include <memory>
 
@@ -18,4 +18,4 @@ private:
     std::shared_ptr<Number> number_resource;
 };
 
-#endif // FIZZSENDER_H
+#endif // BUZZSENDER_H

@@ -9,7 +9,6 @@ class FileOutStream: public OutStream
 {
 public:
     FileOutStream(std::string);
-    ~FileOutStream();
 
     void sendString(std::string);
 

@@ -1,4 +1,4 @@
-#include "fizzsender.h"
+#include <fizzsender.h>
 
 FizzSender::FizzSender(std::shared_ptr<OutStream> out,
                        std::shared_ptr<Number> number_resource):

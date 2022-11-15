@@ -3,5 +3,5 @@
 FileOutStream::FileOutStream(std::string filename): file(filename) {}
 
 void FileOutStream::sendString(std::string string) {
-    file << string << "\n";
+    file << string;
 }
