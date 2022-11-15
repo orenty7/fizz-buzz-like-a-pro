@@ -10,7 +10,7 @@ public:
     IntNumber(int);
 
     int get() override;
-    void set(int);
+    void set(int) override;
 private:
     int number;
 };

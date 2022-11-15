@@ -12,8 +12,8 @@ include_directories(./ outstream/ sender/ number/)
 
 add_executable(fizz-buzz-like-a-pro
     main.cpp
-#    controller.h
-#    controller.cpp
+    controller.h
+    controller.cpp
 
     outstream/outstream.h
     outstream/fileoutstream.h
