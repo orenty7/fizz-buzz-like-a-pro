@@ -3,15 +3,14 @@
 
 #include <memory>
 
-#include "sender.h"
-#include "outstream.h"
-#include "number.h"
+#include <sender.h>
+#include <outstream.h>
+#include <number.h>
 
-
-class BuzzSender: public Sender
+class FizzSender: public Sender
 {
 public:
-    BuzzSender(std::shared_ptr<OutStream>, std::shared_ptr<Number>);
+    FizzSender(std::shared_ptr<OutStream>, std::shared_ptr<Number>);
     void send();
 private:
     std::shared_ptr<OutStream> out;
