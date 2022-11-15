@@ -5,7 +5,7 @@
 class Number
 {
 public:
-    virtual int get();
+    virtual int get() = 0;
 };
 
 #endif // NUMBER_H
