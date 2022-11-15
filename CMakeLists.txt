@@ -7,15 +7,21 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 #set(CMAKE_CXX_FLAGS "-g ${CMAKE_CXX_FLAGS}")
 
-include_directories(outstream/ sender/ number/)
+include_directories(./ outstream/ sender/ number/)
 
 
-add_executable(fizz-buzz-like-a-pro main.cpp
+add_executable(fizz-buzz-like-a-pro
+    main.cpp
+#    controller.h
+#    controller.cpp
+
     outstream/outstream.h
     outstream/fileoutstream.h
     outstream/fileoutstream.cpp
 
     sender/sender.h
+    sender/numbersender.h
+    sender/numbersender.cpp
     sender/fizzsender.h
     sender/fizzsender.cpp
     sender/buzzsender.h
